@@ -28,7 +28,10 @@ const temples: Temple[] = [
     name: "Kedarnath Temple",
     location: "Rudraprayag",
     state: "Uttarakhand",
-    imageUrl: "kedarnath.jpg",
+    imageUrls: [
+      "kedarnath.jpg",
+      "kedarnath-2.jpg",
+    ],
     virtualTourUrl: "https://www.youtube.com/embed/GEOh7-MKk-4",
     description:
       "Located in the Himalayas, Kedarnath is one of the Char Dhams and a sacred pilgrimage for Lord Shiva devotees. It's accessible only for a few months a year due to snowfall.",
